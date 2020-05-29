@@ -22,7 +22,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let iPhoneXSize = CGSize(width: 375, height: 812) /// if you're running this on an iPhone X, delete this line...
             //let iPhone8Size = CGSize(width: 375, height: 667) /// ...and uncomment this line
             
-//            Projector.display(rootWindow: rootWindow, testingSize: iPhoneXSize)
+//            let screenSize = DeviceType.iPhone11.getSize()
+//            Projector.display(rootWindow: rootWindow, testingSize: screenSize)
+            Projector.display(rootWindow: rootWindow, testingSize: iPhoneXSize)
         }
         
     }
