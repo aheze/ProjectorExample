@@ -13,6 +13,7 @@
 		492DE757248078420069DE4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492DE755248078420069DE4A /* Main.storyboard */; };
 		492DE7592480784D0069DE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492DE7582480784D0069DE4A /* Assets.xcassets */; };
 		492DE75C2480784D0069DE4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492DE75A2480784D0069DE4A /* LaunchScreen.storyboard */; };
+		492DE764248081460069DE4A /* Projector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492DE763248081450069DE4A /* Projector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		492DE7582480784D0069DE4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492DE75B2480784D0069DE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		492DE75D2480784D0069DE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492DE763248081450069DE4A /* Projector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				492DE74F248078420069DE4A /* AppDelegate.swift */,
 				492DE751248078420069DE4A /* SceneDelegate.swift */,
 				492DE753248078420069DE4A /* ViewController.swift */,
+				492DE763248081450069DE4A /* Projector.swift */,
 				492DE755248078420069DE4A /* Main.storyboard */,
 				492DE7582480784D0069DE4A /* Assets.xcassets */,
 				492DE75A2480784D0069DE4A /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				492DE754248078420069DE4A /* ViewController.swift in Sources */,
 				492DE750248078420069DE4A /* AppDelegate.swift in Sources */,
+				492DE764248081460069DE4A /* Projector.swift in Sources */,
 				492DE752248078420069DE4A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

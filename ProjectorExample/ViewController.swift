@@ -10,11 +10,32 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var currentRotation: CGFloat = 0
+    
+    @IBOutlet weak var yellowView: UIView!
+    
+    @IBAction func sampleAppPressed(_ sender: Any) {
+        if currentRotation == 270 {
+            currentRotation = 0
+        } else {
+            currentRotation += 90
+        }
+        
+        UIView.animate(withDuration: 0.5, animations: {
+            self.yellowView.transform = CGAffineTransform(rotationAngle: self.currentRotation.degreesToRadians)
+        })
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        yellowView.layer.cornerRadius = 16
     }
-
-
+    
+    override var prefersStatusBarHidden: Bool {
+         return true
+    }
 }
 
+extension FloatingPoint {
+    var degreesToRadians: Self { return self * .pi / 180 }
+}
